@@ -8,19 +8,8 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
 
-#
-# User configuration sourced by interactive shells
-#
-
-# Define zim location
-export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
-
-# Start zim
-[[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
-
+prompt 'pure'
 # Created by newuser for 5.6.2
 
 alias dotdrop='/home/user/dotfiles/dotdrop.sh' --cfg='/home/user/dotfiles/config.yaml'
 alias gs='git status' 
-
-export EDITOR=vim
