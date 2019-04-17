@@ -22,3 +22,5 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 
 alias dotdrop='/home/user/dotfiles/dotdrop.sh' --cfg='/home/user/dotfiles/config.yaml'
 alias gs='git status' 
+
+export EDITOR=vim
