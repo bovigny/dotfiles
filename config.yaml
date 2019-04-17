@@ -41,3 +41,11 @@ profiles:
     - f_plug.vim
     - f_zshrc
     - f_zimrc
+profiles:
+  testdebian:
+    dotfiles:
+    - f_bashrc
+    - f_vimrc
+    - f_plug.vim
+    - f_zshrc
+    - f_zimrc
