@@ -12,8 +12,9 @@ prompt 'pure'
 # Created by newuser for 5.6.2
 export EDITOR=vim
 
-#export VISUAL=pathvisualeditor
+export VISUAL=vim
 
+setopt RM_STAR_WAIT
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -29,3 +30,13 @@ alias gs='git status'
 alias ga='git add'
 alias gm='git commit'
 alias gp='git push'
+
+grep='grep  --color=auto'
+
+#autoload -Uz compinit
+zstyle ':completion:*:processes' command 'ps -au$USER'
+zstyle ':completion:*:*:kill:*:processes' list-colors "=(#b) #([0-9]#)*=36=31"
+
+#zstyle ':completion:*:*:kill:*' menu yes select
+#zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+#zstyle ':completion:*:*:kill:*:processes' command 'ps xo pid,user:10,cmd | ack-grep -v "sshd:|-zsh$"'
