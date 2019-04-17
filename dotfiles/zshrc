@@ -42,17 +42,6 @@ zstyle ':completion:*:*:kill:*:processes' list-colors "=(#b) #([0-9]#)*=36=31"
 export REPORTTIME=0
 
 
-# bindkeys
-bindkey -e
-bindkey -M menuselect '^M' .accept-line
-bindkey '^[[Z' reverse-menu-complete
-bindkey "^A" beginning-of-line
-bindkey "^E" end-of-line
-bindkey "^B" backward-word
-bindkey "^N" forward-word
-bindkey "^?" backward-delete-char
-
-
 
 #zstyle ':completion:*:*:kill:*' menu yes select
 #zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
