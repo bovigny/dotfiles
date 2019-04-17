@@ -10,6 +10,10 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 
 prompt 'pure'
 # Created by newuser for 5.6.2
+export EDITOR=vim
 
 alias dotdrop='/home/user/dotfiles/dotdrop.sh' --cfg='/home/user/dotfiles/config.yaml'
-alias gs='git status' 
+alias gs='git status'
+alias ga='git add'
+alias gm='git commit'
+alias gp='git push'
