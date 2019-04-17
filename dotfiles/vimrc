@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'vim-syntastic/syntastic'
+Plug 'majutsushi/tagbar'
 call plug#end()
 filetype on
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
@@ -9,6 +10,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+nmap <F8> :TagbarToggle<CR>
+
 
 set tabstop=2
 set shiftwidth=2
