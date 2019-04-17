@@ -44,8 +44,6 @@ export REPORTTIME=0
 
 
 bindkey -e
-bindkey -M menuselect '^M' .accept-line
-bindkey '^[[Z' reverse-menu-complete
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 bindkey "^B" backward-word
