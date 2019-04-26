@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'vim-syntastic/syntastic'
 Plug 'majutsushi/tagbar'
+Plug 'maksimr/vim-jsbeautify'
 call plug#end()
 filetype on
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
