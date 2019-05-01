@@ -39,7 +39,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors "=(#b) #([0-9]#)*=36=31"
 
 
 #https://github.com/timoxley/til/blob/master/shell/zsh-reporttime.md
-export REPORTTIME=0
+export REPORTTIME=5
 
 
 
